@@ -1,0 +1,22 @@
+body {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+}
+.escena1 {
+    background-image: url("assets/Imagen\ 1\ fondo\ .png");
+}
+.escena2 {
+    background-image: url(assets/Fondo\ winnie.jpg)
+}
+.escena3 {
+    background-image: url(assets/Fondo\ Piglet.jpg)
+}
+.escena4 {
+    background-image: url(assets/Fondo\ Tigger.jpg)
+}
+.escena5 {
+    background-image: url(assets/Fondo\ Igor.jpg);
+}
