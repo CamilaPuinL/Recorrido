@@ -9,7 +9,7 @@ body {
     background-image: url("assets/Imagen\ 1\ fondo\ .png");
 }
 .escena2 {
-    background-image: url(assets/Fondo\ winnie.jpg)
+    background-image: url(assets/Fondo\ winnie\ 2.jpg)
 }
 .escena3 {
     background-image: url(assets/Fondo\ Piglet.jpg)
@@ -19,4 +19,43 @@ body {
 }
 .escena5 {
     background-image: url(assets/Fondo\ Igor.jpg);
+}
+.objeto {
+    position: absolute;
+}
+
+.sofa {
+    position: relative;
+    top: 20px;
+    left: -300px;
+    width: 900px;
+}
+.Winne {
+    position: relative;
+    top: -700px;
+    left: 1000px;
+    width: 550px;
+}
+.Reloj {
+    position: relative;
+    top: -1250px;
+    left: 300px;
+    width: 300px;
+}
+.Miel {
+    position: relative;
+    top: -700px;
+    left: 80px;
+    width: 200px;
+}
+.cuchara {
+    position: relative;
+    top: -850px;
+    left: -85px;
+    width: 150px;
+}
+.Abejas {
+    position: relative;
+    top: -850px;
+    left: -85;
 }
