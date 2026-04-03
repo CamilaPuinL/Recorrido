@@ -23,39 +23,87 @@ body {
 .objeto {
     position: absolute;
 }
-
-.sofa {
+.Sofa {
     position: relative;
-    top: 20px;
-    left: -300px;
-    width: 900px;
+    top: -60px;
+    left: -400px;
+    width: 1170px;
 }
-.Winne {
+.Winnie {
     position: relative;
-    top: -700px;
+    top: -1020px;
     left: 1000px;
-    width: 550px;
+    width: 585px;
 }
 .Reloj {
     position: relative;
-    top: -1250px;
-    left: 300px;
-    width: 300px;
+    top: -1500px;
+    left: 250px;
+    width: 350px;
 }
 .Miel {
     position: relative;
-    top: -700px;
-    left: 80px;
-    width: 200px;
+    top: -1020px;
+    left: -10px;
+    width: 220px;
 }
-.cuchara {
+.Cuchara {
     position: relative;
-    top: -850px;
-    left: -85px;
-    width: 150px;
+    top: -1170px;
+    left: -190px;
+    width: 180px;
 }
-.Abejas {
+.Estante {
     position: relative;
-    top: -850px;
-    left: -85;
+    top: -1900px;
+    left: 150px;
+    width: 650px;
+}
+.Miel1 {
+    position: relative;
+    top: -2195px;
+    left: -450px;
+    width: 180px;
+}
+.Miel2 {
+    position: relative;
+    top: -2195px;
+    left: -500px;
+    width: 180px;  
+}
+.Miel3 {
+    position: relative;
+    top: -2195px;
+    left: -560px;
+    width: 180px;
+}
+.Miel4 {
+    position: relative;
+    top: -2195px;
+    left: -620px;
+    width: 180px;
+}
+.Abejas { 
+    position: relative;
+    top: -2259px;
+    left: -650px;
+    width: 100px;
+}
+.Abejas2 {
+    position: relative;
+    top: -2500px;
+    left: 1150px;
+    width: 350px;
+}
+.Piglet {
+    position: relative;
+    top: 150px;
+    left: -380px;
+    width: 600px;
+}
+.Lampara {
+    position: relative;
+    top: 200px;
+    left: 100px;
+    width: 800px;
 }
