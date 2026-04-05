@@ -5,9 +5,6 @@ body {
     height: 100vh;
     margin: 0;
 }
-.escena1 {
-    background-image: url("assets/Imagen\ 1\ fondo\ .png");
-}
 .escena2 {
     background-image: url(assets/Fondo\ winnie\ 2.jpg)
 }
@@ -25,13 +22,13 @@ body {
 }
 .Sofa {
     position: relative;
-    top: -60px;
+    top: -80px;
     left: -170px;
     width: 1170px;
 }
 .Winnie {
     position: relative;
-    top: -1020px;
+    top: -1050px;
     left: 1000px;
     width: 585px;
 }
@@ -43,13 +40,13 @@ body {
 }
 .Miel {
     position: relative;
-    top: -1020px;
+    top: -1060px;
     left: -10px;
     width: 220px;
 }
 .Cuchara {
     position: relative;
-    top: -1170px;
+    top: -1217px;
     left: -190px;
     width: 180px;
 }
@@ -88,48 +85,79 @@ body {
     top: -2259px;
     left: -650px;
     width: 100px;
+    z-index: 100;
+    pointer-events: none;
 }
 .Abejas2 {
     position: relative;
-    top: -2500px;
+    top: -2550px;
     left: 1150px;
     width: 350px;
 }
 .linkPri {
-    position: absolute;
-    z-index: 10;
-    top: 80px;
-    left: 50px;
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
 
-    color: darkgoldenrod;
-    font-size: 20px;
+    background-color: #c68642;
+    color: white;
+
+    text-decoration: none;
+    border-radius: 8px;
+    border: 2px solid #5a3e1b;
+
+    font-weight: bold;
+    z-index: 50;
+    position: relative;
+
 }
-.linkPiglet {
-    position: absolute;
-    z-index: 10;
-    top: 110px;
-    left: 50px;
 
-    color: darkgoldenrod;
-    font-size: 20px;
+.linkPiglet {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+
+    background-color: #c68642; /* color madera */
+    color: white;
+
+    text-decoration: none;
+    border-radius: 8px;
+    border: 2px solid #5a3e1b;
+
+    font-weight: bold;
+
+    position: relative;
+    z-index: 50;
+
+}
+.linkPri2, .linkTi {
+    display: inline-block;
+    padding: 15px 20px;
+    margin: 15px;
+
+    background-color: #fff0f5; /* rosadito suave */
+    color: #5a2a3a;
+
+    text-decoration: none;
+    font-weight: bold;
+
+    border: 2px solid #f4a6b8;
+    border-radius: 10px;
+
+    box-shadow: 2px 3px #d98ca3;
+
+    position: relative;
 }
 .linkPri2 {
     position: absolute;
-    z-index: 10;
     top: 80px;
-    left: 30px;
-
-    color:rgb(238, 138, 188);;
-    font-size: 20px;
+    right: 1295px;
 }
+
 .linkTi {
     position: absolute;
-    z-index: 10;
-    top: 100px;
-    left: 30px;
-
-    color: rgb(238, 138, 188);
-    font-size: 20px;
+    top: 80px;
+    right: 1100px;
 }
 #piglet {
     position: absolute;
@@ -181,23 +209,31 @@ body {
     left: 1000px;
     width: 300px;
 }
+.linkPri3, .linkIgo {
+    display: inline-block;
+    padding: 12px 20px;
+
+    background-color: #cc6600;
+    color: white;
+
+    text-decoration: none;
+    font-weight: bold;
+
+    border-radius: 20px;
+    border: 3px solid #cc6600;
+
+    position: absolute;
+}
 .linkPri3 {
     position: absolute;
-    z-index: 10;
     top: 80px;
-    left: 30px;
-
-    color: chocolate;
-    font-size: 20px;
+    right: 800px;
 }
+
 .linkIgo {
     position: absolute;
-    z-index: 10;
-    top: 100px;
-    left: 30px;
-
-    color: chocolate;
-    font-size: 20px;
+    top: 80px;
+    right: 600px;
 }
 .SillaTi {
     position: absolute;
@@ -271,19 +307,25 @@ body {
     100% {transform: translateY(0); }
 }
 .linkPri4 {
-     position: absolute;
-    z-index: 10;
-    top: 80px;
-    left: 18px;
+    display: inline-block;
+    padding: 12px 20px;
 
-    color: cornflowerblue;
-    font-size: 20px;
+    background-color: #078ea6;
+    color: white;
+
+    text-decoration: none;
+    font-weight: bold;
+
+    border-radius: 20px;
+    border: 3px solid #078ea6;
+
+    position: absolute;
 }
 .CamaIgo {
     position: absolute;
     top: 170px;
     left: -95px;
-    width: 950px;
+    width: 1000px;
 }
 .PufIgo {
     position: absolute;
@@ -297,11 +339,41 @@ body {
     left: 950px;
     width: 400px;
 }
-.Ventana {
+.Flores {
     position: absolute;
     top: 80px;
-    left: 600px;
+    left: 650px;
     width: 300px;
+}
+.cintaIgo {
+    position: absolute;
+    top: 10px;
+    left: 730px;
+    width: 150px;
+}
+.perro {
+    position: absolute;
+    top: 150px;
+    left: 300px;
+    width: 250px;
+}
+.cintaIgo2 {
+    position: absolute;
+    top: 76px;
+    left: 350px;
+    width: 150px;
+}
+.discos {
+    position: absolute;
+    top: 100px;
+    left: 1200px;
+    width: 230px;
+}
+.cintaIgo3 {
+    position: absolute;
+    top: 26px;
+    left: 1245px;
+    width: 150px;
 }
 .lluvia {
     position: absolute;
@@ -311,4 +383,37 @@ body {
     background-size: cover;
     opacity: 0.4;
     pointer-events: none;
+}
+.Personajes {
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    background-image: url(assets/Personajes.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    z-index: -1;
+}
+.linkWinnie {
+    display: inline-block;
+    padding: 30px 60px;
+
+    background-color: #d4ac83;
+    color: white;
+
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 35px;
+
+    border-radius: 20px;
+    border: 3px solid #d3a16f;
+
+    position: absolute;
+    top: 600px;
+    left: 560px;
 }
