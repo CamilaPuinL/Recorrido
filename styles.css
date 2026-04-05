@@ -26,7 +26,7 @@ body {
 .Sofa {
     position: relative;
     top: -60px;
-    left: -400px;
+    left: -170px;
     width: 1170px;
 }
 .Winnie {
@@ -84,7 +84,7 @@ body {
     width: 180px;
 }
 .Abejas { 
-    position: relative;
+    position: absolute;
     top: -2259px;
     left: -650px;
     width: 100px;
@@ -95,15 +95,220 @@ body {
     left: 1150px;
     width: 350px;
 }
-.Piglet {
-    position: relative;
-    top: 150px;
-    left: -380px;
-    width: 600px;
+.linkPri {
+    position: absolute;
+    z-index: 10;
+    top: 80px;
+    left: 50px;
+
+    color: darkgoldenrod;
+    font-size: 20px;
 }
-.Lampara {
+.linkPiglet {
+    position: absolute;
+    z-index: 10;
+    top: 110px;
+    left: 50px;
+
+    color: darkgoldenrod;
+    font-size: 20px;
+}
+.linkPri2 {
+    position: absolute;
+    z-index: 10;
+    top: 80px;
+    left: 30px;
+
+    color:rgb(238, 138, 188);;
+    font-size: 20px;
+}
+.linkTi {
+    position: absolute;
+    z-index: 10;
+    top: 100px;
+    left: 30px;
+
+    color: rgb(238, 138, 188);
+    font-size: 20px;
+}
+#piglet {
+    position: absolute;
     position: relative;
+    left: 800px;
+    top: 30px;
+    width: 280px;
+    z-index: 10;
+}
+.CamaP {
+    position: relative;
+    top: 180px;
+    left: -289px;
+    width: 750px;
+}
+.Poster {
+    position: absolute;
     top: 200px;
-    left: 100px;
-    width: 800px;
+    left: 200px;
+    width: 200px;
+}
+.Cinta {
+    position: absolute;
+    top: 150px;
+    left: 250px;
+    width: 100px;
+}
+.Poster2 {
+    position: absolute;
+    top: 200px;
+    left: 450px;
+    width: 200px;
+}
+.SillaP {
+    position: absolute;
+    top: 370px;
+    left: 1150px;
+    width: 300px;
+}
+.oso {
+    position: absolute;
+    top: 320px;
+    left: 1150px;
+    width: 280px;
+}
+.LamparaPiglet {
+    position: absolute;
+    top: -50px;
+    left: 1000px;
+    width: 300px;
+}
+.linkPri3 {
+    position: absolute;
+    z-index: 10;
+    top: 80px;
+    left: 30px;
+
+    color: chocolate;
+    font-size: 20px;
+}
+.linkIgo {
+    position: absolute;
+    z-index: 10;
+    top: 100px;
+    left: 30px;
+
+    color: chocolate;
+    font-size: 20px;
+}
+.SillaTi {
+    position: absolute;
+    top: 330px;
+    left: 50px;
+    width: 450px;
+}
+.Tigger {
+    position: absolute;
+    top: 80px;
+    left: 150px;
+    width: 325px;
+}
+.MesaTi {
+    position: absolute;
+    top: 350px;
+    left: 465px;
+    width: 620px;
+}
+.LibroT {
+    position: absolute;
+    top: 270px;
+    left: 820px;
+    width: 200px;
+}
+.Dados {
+    position: absolute;
+    top: 400px;
+    left: 830px;
+    width: 130px;
+    z-index: 10;
+}
+.Nintendo {
+    position: absolute;
+    top: 450px;
+    left: 650px;
+    width: 150px;
+    z-index: 10;
+}
+.Rummie {
+    position: absolute;
+    top: 400px;
+    left: 705px;
+    width: 130px;
+}
+.Balon {
+    position: absolute;
+    top: 340px;
+    left: 530px;
+    width: 179px;
+}
+.Videojuegos {
+    position: absolute;
+    top: 160px;
+    left: 970px;
+    width: 675px;
+}
+#tigger {
+    position: absolute;
+    left: 150px;
+    top: 125px;
+    width: 300px;
+
+    animation:  salto 0.8s infinite ease-in-out;
+}
+
+
+@keyframes salto {
+    0% {transform: translateY(0); }
+    50% {transform: translateY(-120px); }
+    100% {transform: translateY(0); }
+}
+.linkPri4 {
+     position: absolute;
+    z-index: 10;
+    top: 80px;
+    left: 18px;
+
+    color: cornflowerblue;
+    font-size: 20px;
+}
+.CamaIgo {
+    position: absolute;
+    top: 170px;
+    left: -95px;
+    width: 950px;
+}
+.PufIgo {
+    position: absolute;
+    top: 350px;
+    left: 900px;
+    width: 500px;
+}
+.Igor {
+    position: absolute;
+    top: 250px;
+    left: 950px;
+    width: 400px;
+}
+.Ventana {
+    position: absolute;
+    top: 80px;
+    left: 600px;
+    width: 300px;
+}
+.lluvia {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url(assets/lluvia.gif);
+    background-size: cover;
+    opacity: 0.4;
+    pointer-events: none;
 }
